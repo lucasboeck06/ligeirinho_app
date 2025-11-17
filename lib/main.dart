@@ -25,7 +25,7 @@ class HomePage extends StatelessWidget {
       options: MapOptions(
         cameraConstraint: CameraConstraint.contain(
           bounds: LatLngBounds.fromPoints([
-            const LatLng(-25.245742, -48.939075),
+            const LatLng(-25.245742, -48.939074),
             const LatLng(-25.676351, -49.435638),
           ]),
         ),
